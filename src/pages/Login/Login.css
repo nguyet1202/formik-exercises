@@ -1,0 +1,245 @@
+.title {
+  text-align: center;
+  background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png");
+  height: 51px;
+  width: 175px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+  background-size: 440px 411px;
+  background-position: 0 -129px;
+  margin: 22px auto 12px;
+}
+
+.login-section {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 10px 40px;
+}
+
+.signup-section {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 25px 0;
+  margin-top: 10px;
+}
+
+.signup-section p {
+  margin: 0;
+  text-align: center;
+}
+
+.signup-section a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0095f6;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group:first-child {
+  margin-bottom: 6px;
+}
+
+.form-group:last-child {
+  margin-bottom: 18px;
+}
+
+.form-control-input {
+  outline: none;
+  height: 36px;
+  -webkit-appearance: none;
+  padding: 9px 120px 7px 8px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  color: #262626;
+  font-size: 12px;
+  line-height: 18px;
+  box-shadow: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  position: relative;
+}
+.form-control-error{
+  outline: none;
+  height: 36px;
+  -webkit-appearance: none;
+  padding: 9px 120px 7px 8px;
+  background: #fafafa;
+  border: 1px solid #ff4500;
+  border-radius: 3px;
+  color: #262626;
+  font-size: 12px;
+  line-height: 18px;
+  box-shadow: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif;
+  position: relative;
+}
+.errorMessage{
+  color:#ff4500 ;
+}
+
+
+/*.has-error .form-control {*/
+/*  outline: none;*/
+/*  box-shadow: none !important;*/
+/*  transition: none;*/
+/*  border-color: #ff4500 !important;*/
+/*}*/
+
+.form-control-input:focus {
+  box-shadow: none;
+  border: 1px solid #a8a8a8;
+  outline: none;
+}
+
+.help-block {
+  color: #ff4500;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.login-btn,
+.login-btn:hover,
+.login-btn:focus {
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+  border-color: #0095f6 !important;
+  background-color: #0095f6 !important;
+  font-weight: 600;
+  max-height: 34px;
+}
+
+.visibility {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  outline: none !important;
+}
+
+.seperator {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #8e8e8e;
+  text-align: center;
+  margin: 10px 0 26px;
+}
+
+.seperator:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #dbdbdb;
+  left: 0;
+  top: 50%;
+}
+
+.seperator-text {
+  z-index: 2;
+  padding: 0 18px;
+  position: relative;
+  background-color: #fff;
+}
+
+.alternative-login {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.alternative-login a {
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 8px;
+  top: 3px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: -347px -329px;
+  background-size: 440px 411px;
+  background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png");
+}
+
+.social-text {
+  font-weight: 600;
+  color: #385185;
+}
+
+.forget-password {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.forget-password a {
+  text-decoration: none;
+  color: #00376b;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.digital-store {
+  height: 40px;
+}
+
+.get-the-app-section {
+  padding: 10px 0;
+}
+
+.get-the-app-text {
+  text-align: center;
+  margin: 10px 0 20px;
+  color: #262626;
+}
+
+.store-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10px;
+}
+
+.store-list a:last-child {
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-icon {
+  width: 20px;
+  height: 20px;
+  animation: spin 2s infinite linear;
+}
